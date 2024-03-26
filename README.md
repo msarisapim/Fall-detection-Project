@@ -31,5 +31,9 @@ This Fall Detection Project is designed to identify and alert when a fall incide
 Le2i Fall dataset
 
 
-
+## Key Functions and Concepts
+-  **Background Subtraction**: Central to the script, using a GMM approach to differentiate between the foreground (moving objects/people) and the static background. Parameters like the number of mixtures, learning rate, and thresholds are crucial for accurate detection.
+-  **Gaussian Mixture Models (GMMs)**: Used for modeling each pixel's value distribution to separate background and foreground.
+-  **PCA for Fall Detection**: a technique for distinguish falls from other movements. PCA identifies major and minor axes, aiding in the visualization of object orientation and shape. This analytical depth is vital for refining detection accuracy and understanding the dynamics of falls, offering insights through visualization of results and temporal data analysis on aspect ratios and orientations.
+-  **Video and Image Processing**: The script demonstrates extensive use of MATLAB's video and image processing capabilities, including reading, writing, and manipulating frames. 
 
