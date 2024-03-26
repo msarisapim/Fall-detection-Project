@@ -20,9 +20,9 @@ This Fall Detection Project is designed to identify and alert when a fall incide
 ## Installation
 
 1. Clone the repository to your local machine:
-  '''
+  ```
   git clone https://github.com/msarisapim/Fall-detection-Project.git
-  '''
+  ```
 
 2. Open MATLAB and navigate to the project directory.
 3. Run the main script (e.g., `FallDt_Proj.m`) to start the fall detection system.
